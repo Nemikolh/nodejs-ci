@@ -1,0 +1,6 @@
+*.log
+*.swp
+.vagrant
+node_modules
+repo
+build

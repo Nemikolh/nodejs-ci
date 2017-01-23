@@ -1,0 +1,26 @@
+{
+  "name": "node-ci",
+  "version": "0.1.0",
+  "description": "CI for node applications",
+  "main": "ci.js",
+  "scripts": {
+    "postinstall": "mkdir build; true",
+    "test": "echo \"No test specified\" && true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Nemikolh/nodejs-ci.git"
+  },
+  "keywords": [
+    "CI",
+    "node"
+  ],
+  "author": "Nemikolh",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "docopt": "^0.6.2",
+    "express": "^4.14.0",
+    "restler": "^3.4.0"
+  }
+}
